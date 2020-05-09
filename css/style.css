@@ -441,6 +441,7 @@ body.section-show .transition-mask:before{
 .front-section{
 	padding-top:60px;
 	padding-bottom:200px;
+	background-image: url("img/sf.jpg")
 	position:relative;
 }
 .front-heading{
@@ -1916,6 +1917,7 @@ body .symp-btn{
 		left:-40px;
 	}
 }
+
 /* ---- particles.js container ---- */
 
 #particles-js{
