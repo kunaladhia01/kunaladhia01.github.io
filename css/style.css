@@ -41,6 +41,7 @@
 	padding:0;
 	outline:none;
 	font-family: Open Sans, sans-serif;
+	overscroll-behavior: none;
 }
 
 
@@ -169,7 +170,7 @@ body.section-show .close-btn{
 	font-size:16px;
 }
 #wrapper{
-	overflow-x:hidden;
+	overflow:hidden;
 }
 .front-section{
 	background:#FFF;
@@ -441,7 +442,6 @@ body.section-show .transition-mask:before{
 .front-section{
 	padding-top:60px;
 	padding-bottom:200px;
-	background-image: url("img/sf.jpg")
 	position:relative;
 }
 .front-heading{
@@ -514,8 +514,8 @@ body.section-show .transition-mask:before{
 	font-family:Hind, sans-serif;
 	color:#CCC;
 	text-align:center;
-	font-size:24px;
-	letter-spacing:25px;
+	font-size:40px;
+	letter-spacing:40px;
 	line-height:1em;
 	text-transform:lowercase;
 }
@@ -1916,16 +1916,4 @@ body .symp-btn{
 		bottom:0;
 		left:-40px;
 	}
-}
-
-/* ---- particles.js container ---- */
-
-#particles-js{
-  width: 100%;
-  height: 100%;
-  background-color: #b61924;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
 }
